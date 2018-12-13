@@ -1,0 +1,102 @@
+body{
+    font-size: 16px;
+    margin:0;
+}
+/*==============
+	Layout
+================*/
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.left_side{
+	width: 50%; 
+    height: 100vh;
+    background-image: url('../images/cover_img.jpg');
+    background-repeat: round;
+}
+.right_side{
+	width: 40%;
+    height: 100vh;
+    margin-right: 2em;
+}
+
+.signup_nav a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    color: #0066cc;
+    margin-left: 1em;
+}
+.signup_nav{
+    float: right;
+}
+.content{
+    margin-left: 2em;
+}
+.main_content input[type="password"],
+.main_content input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40vw;
+    margin-top: 2em;
+}
+.main_content input[type="submit"]{
+	color: white;
+	background-color: #0066cc;
+    width: 40vw;
+    height: 50px;
+}
+.main_content ul{
+    margin-left: -2.5em;
+}
+.main_content ul li{
+    list-style-type: none;
+    margin-bottom: 3vw;
+    width: 40vw;
+}
+.main_content ul li .forgot_pass{
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 1.1em;
+    float:right;
+}
+
+.title h3 {
+    font-size: 2em;
+    margin-bottom: -5px;
+}
+
+.title p {
+    font-size: 1em;
+}
+
+.title{
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.clear_fix{
+    clear: both;
+}
+/* ==============
+    Media query
+=================*/
+@media screen and (min-width: 768px){
+    .col {
+        float: left;
+    }
+    .clearfix{
+        clear: both;
+    }
+}
+@media (max-width: 768px){
+    .left_side{
+        width: 50%; 
+        height: 30vh;
+        background-image: url('../images/cover_img.jpg');
+        background-repeat: round;
+    }
+   
+}
