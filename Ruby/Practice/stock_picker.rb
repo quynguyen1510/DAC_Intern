@@ -10,7 +10,7 @@ def stock_picker(array)
 	  end
 	  i += 1
 	end 
-	p hash.key(hash.values.max)
+	puts "The best day to buy and the best day to sell : #{hash.key(hash.values.max)}" 
 end
 
 stock_picker([17,3,6,9,15,8,6,1,10])
